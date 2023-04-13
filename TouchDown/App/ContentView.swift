@@ -20,7 +20,9 @@ struct ContentView: View {
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
                 ScrollView(.vertical, showsIndicators: false) {
+                    
                     VStack(spacing: 0) {
+                        
                         FeaturedTabView()
                             .padding(.vertical, 20)
                             .frame(height: 300)
@@ -42,6 +44,7 @@ struct ContentView: View {
                         FooterView()
                             .padding(.horizontal)
                     }
+                    
                 }
             }
             .background(colorBackground.ignoresSafeArea(.all, edges: .all))

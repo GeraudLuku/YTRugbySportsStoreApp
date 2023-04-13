@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FA43B6829B09C2200A521C6 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA43B6729B09C2200A521C6 /* ProductDetailView.swift */; };
 		9FB1C5EF29AF5BA00043C8A0 /* TouchDownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1C5EE29AF5BA00043C8A0 /* TouchDownApp.swift */; };
 		9FB1C5F129AF5BA00043C8A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1C5F029AF5BA00043C8A0 /* ContentView.swift */; };
 		9FB1C5F329AF5BA40043C8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1C5F229AF5BA40043C8A0 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9FA43B6729B09C2200A521C6 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		9FB1C5EB29AF5BA00043C8A0 /* TouchDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB1C5EE29AF5BA00043C8A0 /* TouchDownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDownApp.swift; sourceTree = "<group>"; };
 		9FB1C5F029AF5BA00043C8A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 			children = (
 				9FB1C5EE29AF5BA00043C8A0 /* TouchDownApp.swift */,
 				9FB1C5F029AF5BA00043C8A0 /* ContentView.swift */,
-				9FA43B6729B09C2200A521C6 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -144,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				9FB1C60D29AF5DBF0043C8A0 /* Home */,
-				9FB1C60C29AF5DB30043C8A0 /* Detail */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,13 +162,6 @@
 				9FB1C61929AF67A30043C8A0 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		9FB1C60C29AF5DB30043C8A0 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Detail;
 			sourceTree = "<group>";
 		};
 		9FB1C60D29AF5DBF0043C8A0 /* Home */ = {
@@ -284,7 +273,6 @@
 				9FB1C62C29AFA3B80043C8A0 /* ProductItemView.swift in Sources */,
 				9FB1C63229AFAB290043C8A0 /* BrandGridView.swift in Sources */,
 				9FB1C5EF29AF5BA00043C8A0 /* TouchDownApp.swift in Sources */,
-				9FA43B6829B09C2200A521C6 /* ProductDetailView.swift in Sources */,
 				9FB1C61029AF5DF20043C8A0 /* Constant.swift in Sources */,
 				9FB1C62429AF98D70043C8A0 /* CategoryGridView.swift in Sources */,
 				9FB1C63029AFA9F00043C8A0 /* BrandItemView.swift in Sources */,
@@ -425,6 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TouchDown/Preview Content\"";
+				DEVELOPMENT_TEAM = V62R78W888;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TouchDown/Info.plist;
@@ -438,7 +427,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dmesystems.TouchDown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devwithgeraud.TouchDown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TouchDown/Preview Content\"";
+				DEVELOPMENT_TEAM = V62R78W888;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TouchDown/Info.plist;
@@ -467,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dmesystems.TouchDown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devwithgeraud.TouchDown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
